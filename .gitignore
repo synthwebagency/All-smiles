@@ -1,0 +1,12 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Exclude all assets from GitHub while keeping the folder structure
+/public/images/*
+!/public/images/README.md
